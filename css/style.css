@@ -1,0 +1,510 @@
+@charset "UTF-8";
+
+/*
+GENERAL STYLING
+================================================ */
+html {
+    font-size: 100%;
+}
+body {
+	color: #555;
+    font-family: "IBM Plex Sans KR", sans-serif;
+}
+h1 {
+    color: #181818;
+}
+h2 {
+    color: #3c3c3c;
+}
+/*
+COMMON
+================================================ */
+
+p {
+    line-height: 1.7;
+    font-size: 1.125rem;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    font-family: "Black Han Sans", sans-serif;
+    font-size: 7rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+/*
+HERO
+================================================ */
+.hero {
+    /*background-image: url(../images/bread1.jpg);*/
+    text-align: center;
+    padding-top:35vh;
+}
+
+/*
+MENU
+================================================ */
+.menu {
+    /*background-image: url(../images/bread2.jpg);*/
+    padding-top: 10vh;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.menu-list tr {
+    font-size: 1.125rem;
+    margin-bottom: .5rem;
+    line-height: 1.7;
+}
+.menu-list th {
+    font-weight: normal;
+}
+.menu-list td {
+    padding-left: 1rem;
+}
+
+/*
+CONTACT
+================================================ */
+.contact {
+    /*background-image: url(../images/cafe.jpg);*/
+    text-align: center;
+    padding-top: 8vh;
+}
+
+.btn {
+    background: #3b3b3b;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 1rem 3.5rem;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 2rem 0 2.25rem;
+}
+.btn:hover {
+    background: #777;
+}
+.contact-sns {
+    display: flex;
+    justify-content: center;
+}
+.contact-sns a {
+    background: #fff;
+    width: 3.75rem;
+    height: 3.75rem;
+    display: inline-block;
+    margin: 0 .5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: .75rem 0 0 .125rem;
+    color: #555;
+}
+.contact-sns a:hover {
+    background: rgba(255,255,255,.5);
+}
+
+/*
+MOBILE SIZE
+================================================ */
+@media (max-width : 700px) {
+    .ttile {
+        font-size: 4rem;
+    }
+    p {
+        padding: 0 1rem;
+    }
+    p, .menu-list li{
+        font-size: 1rem;
+    }
+    .hero {
+        padding-top: 12vh;
+    }
+
+}
+
+.brown-bg {
+    display: grid;
+    grid-template-columns: 1fr 1.7fr; /* 왼쪽은 무조건 1fr, 오른쪽은 컨텐츠에 맞게 */
+    align-items: center; /* 수직 중앙 정렬 */
+}
+
+.chart-box {
+    grid-column: 2; /* 두 번째 열에 배치 */
+    float: left; /* 왼쪽에 붙이기 */
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto; /* 이미지가 넘칠 경우 가로 스크롤 표시 */
+}
+
+.image-container {
+    display: grid;
+    grid-template-rows: 1fr; /* 그리드 행을 1행으로 설정 */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 그리드 열 설정 */
+    justify-content: center; /* 그리드를 수평 중앙으로 정렬 */
+    align-items: center; /* 그리드를 수직 중앙으로 정렬 */
+    gap: 5px; /* 이미지 사이의 간격을 설정 */
+    margin-right: 30vh; /* 오른쪽 여백 설정 */
+
+
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%; /* 이미지의 높이를 너비와 동일하게 설정합니다. */
+    object-fit: cover; /* 이미지를 정사각형에 맞게 자동으로 조정합니다. */
+
+    border-radius: 10px; /* 이미지에 둥근 테두리 적용 */
+    overflow: hidden; /* 둥근 테두리가 이미지 밖으로 나가지 않도록 설정 */
+
+    border-radius: 20px; /* 더 부드러운 테두리를 위해 값 증가 */
+    border: 5px solid #555;
+
+    transition: background-color 0.3s ease; /* 배경색 변화에 대한 트랜지션 설정 */
+    filter: grayscale(100%);
+}
+
+.image-container img:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* 마우스 호버 시 배경색을 검은색으로 변경 */
+     /* 마우스를 올리면 색이 바뀐다. */
+     filter: grayscale(0);
+     /* 그림자 표현하기 */
+     box-shadow: 0 0 1rem rgba(0,0,0, .5);
+}
+
+.chart-box canvas {
+    width: 108%; /* 차트의 너비를 100%로 설정하여 부모 요소에 맞게 확장 */
+    height: auto; /* 차트의 높이를 자동으로 조정하여 가로세로 비율 유지 */
+}
+
+
+
+.home-text {
+    margin-left: 30vh;
+}
+
+.align-left-zone {
+    margin-left: 45vh;
+}
+
+/* 탭 전체 스타일 */
+.tabs {
+    margin-top: 50px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 700px;
+    margin: 0 auto;}
+  
+  /* 탭 스타일 */
+  .tab_item {
+    width: calc(100%/3);
+    height: 50px;
+    border-bottom: 3px solid #333333;
+    background-color: #f8f8f8;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #333333;
+    display: block;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.2s ease;
+  }
+  .tab_item:hover {
+    opacity: 0.75;
+  }
+  
+  /* 라디오 버튼 UI삭제*/
+  input[name="tab_item"] {
+    display: none;
+  }
+  
+  /* 탭 컨텐츠 스타일 */
+  .tab_content {
+    display: none;
+    padding: 40px 40px 0;
+    clear: both;
+    overflow: hidden;
+  }
+  
+  
+  /* 선택 된 탭 콘텐츠를 표시 */
+  #all:checked ~ #all_content,
+  #programming:checked ~ #programming_content,
+  #design:checked ~ #design_content {
+    display: block;
+  }
+  
+  /* 선택된 탭 스타일 */
+  .tabs input:checked + .tab_item {
+    background-color: #333333;
+    color: #fff;
+  }
+
+.plz-right {
+    margin-right: 20vh;
+}
+
+.sns-btn {
+    background: #fff;
+    font-size: 1.3rem;
+    color: #000000;
+    padding: 0rem 0.3rem;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 2rem 0 2.25rem;
+}
+
+.chart-box, .text-box {
+    opacity: 1;
+    transition: opacity 0.5s ease; /* 투명도에 대한 트랜지션 설정 */
+}
+/*------------------------------------------------------------*/
+
+
+.hide {
+    opacity: 0; /* 숨겨진 요소의 투명도를 0으로 설정하여 사라지게 함 */
+    pointer-events: none; /* 숨겨진 요소는 이벤트를 받지 않도록 설정 */
+    display: none; /* 요소를 화면에서 숨김 */
+}
+
+/*------------------------------------------------------------*/
+.projects-wrapper {
+    margin-right: 60vh;
+    display: flex; /* 부모 요소를 플렉스 박스로 설정하여 자식 요소를 가로로 배치 */
+    justify-content: flex-start; /* 자식 요소를 왼쪽에 정렬 */
+}
+
+.project-table {
+    width: 300px; /* 프로젝트 테이블의 너비 설정 */
+    border-collapse: collapse;
+    margin-right: 20px; /* 우측 여백 추가 */
+}
+
+.project-cell {
+    padding: 10px; /* 셀의 여백 설정 */
+    text-align: center;
+    display: table-cell;
+    border: none;
+}
+.project-row {
+    display: table-row;
+}
+
+.project-toggle {
+    width: 100px; /* 버튼의 최소 폭 설정 */
+    padding: 15px 20px; /* 버튼의 여백 설정 */
+    font-size: 16px; /* 폰트 크기 설정 */
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* 버튼의 테두리를 둥글게 만듦 */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* transform 속성에 트랜지션 적용 */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+    margin-bottom: 10px; /* 버튼 아래쪽에 여백 추가 */
+
+}
+
+.project-toggle:hover {
+    background-color: #000000;
+    transform: translateY(-3px); /* 버튼을 위로 약간 이동 */
+}
+
+/* 버튼이 선택되었을 때의 스타일 */
+.project-toggle:active {
+    transform: translateY(0); /* 버튼의 위치를 원래대로 복귀 */
+}
+
+.project-content {
+    display: none;
+}
+
+.project-example {
+    text-align: center;
+}
+
+.project-example img {
+    width: 150px; /* 예시 이미지의 고정된 너비 설정 */
+    height: auto; /* 이미지의 높이 자동 조정 */
+}
+
+.example-inner {
+    display: inline-block; /* 내부 요소를 수평으로 정렬하기 위해 인라인 블록으로 설정 */
+    text-align: left; /* 텍스트 정렬을 왼쪽으로 설정 */
+    padding: 10px 10px;
+
+}
+
+.example-inner img {
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+    transition: transform 0.3s; /* 호버 시 변화에 트랜지션 적용 */
+
+}
+
+.example-inner:hover img {
+    transform: scale(1.1); /* 호버 시 이미지 확대 */
+}
+
+.description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s, opacity 0.3s;
+}
+
+.example-inner:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+/*------------------------------------------------------------*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+#modal-image {
+    max-width: 100%;
+    max-height: 40vh;
+    margin-bottom: 5px;
+}
+
+#modal-description {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+}
+/*------------------------------------------------------------*/
+
+.image-description-container {
+    display: flex;
+    flex-direction: row; /* 수평으로 정렬 */
+    gap: 200px; /* 이미지와 설명 사이의 간격 */
+    justify-content: center; /* 내부 컨테이너를 가로 방향으로 가운데 정렬 */
+}
+
+.image-with-description {
+    display: flex;
+    flex-direction: column; /* 수직으로 정렬 */
+    align-items: center; /* 가운데 정렬 */
+}
+
+.image-with-description img {
+    max-width: 140px; /* 이미지의 최대 너비 설정 */
+}
+/*------------------------------------------------------------*/
+/* 부모 요소 설정 */
+body {
+    position: relative; /* 이미지의 부모 요소인 body에 대해 상대 위치 지정 */
+}
+
+.remote-control {
+    position: fixed;
+    top: 87%;
+    right: 49px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding: 10px;
+
+    z-index: 1;
+    overflow: hidden; /* 이미지가 부모 요소를 넘어가지 않도록 설정 */
+}
+
+.remote-btn {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #171717;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.remote-btn:hover {
+    background-color: #585858;
+}
+
+.remote_IMG {
+    position: fixed;
+    bottom: 0;
+    right: -200px;
+    z-index: -1;
+}
+
+.remote_IMG img {
+    width: 50%;
+    height: auto;
+}
