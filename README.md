@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
     <h1>🛠 프로젝트 이름</h1>
     <p>설명을 간단히 작성하세요.</p>
     <br>
@@ -15,7 +15,7 @@
     <br>
 </div>
 
-<div align="center">
+<div align="left">
     <!-- 기능 요약 -->
     <h2>✨ 기능 요약</h2>
     <table>
