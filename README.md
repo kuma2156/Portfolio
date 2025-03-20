@@ -1,11 +1,12 @@
 <div align="left">
     <h1>🛠 포트폴리오</h1>
     <table>
-    <tr>
-        <td align="center"><img src="https://github.com/user-attachments/assets/b6ae4188-8a4d-4572-868c-63af7a165176" width="750"></td>
-    </tr>
-</table>
-
+        <tr>
+            <td align="center"><img src="https://github.com/user-attachments/assets/b6ae4188-8a4d-4572-868c-63af7a165176" width="750"></td>
+        </tr>
+    </table>
+</div>
+<div align="left">
     <br>
     <!-- 기술 스택 -->
     <h2>🚀 기술 스택</h2>
