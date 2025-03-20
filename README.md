@@ -51,72 +51,19 @@
     </table>
     <br>
 
-    <!-- 프로젝트 구조 -->
     <h2>📁 프로젝트 구조</h2>
-    <table>
-        <tr>
-            <td>├── <strong>img/</strong></td>
-            <td># 이미지 파일</td>
-        </tr>
-        <tr>
-            <td>├── <strong>src/</strong></td>
-            <td># 소스 코드</td>
-        </tr>
-        <tr>
-            <td>│   ├── <strong>components/</strong></td>
-            <td># 컴포넌트</td>
-        </tr>
-        <tr>
-            <td>│   ├── <strong>pages/</strong></td>
-            <td># 페이지</td>
-        </tr>
-        <tr>
-            <td>│   └── <strong>app.js</strong></td>
-            <td># 메인 앱 파일</td>
-        </tr>
-        <tr>
-            <td>├── <strong>.gitignore</strong></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>├── <strong>README.md</strong></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>└── <strong>package.json</strong></td>
-            <td></td>
-        </tr>
-    </table>
+    <!-- 프로젝트 구조 내용은 이미지로 대체 예정 -->
+    
     <br>
-
+    
     <!-- 실행 방법 -->
     <h2>⚡ 실행 방법</h2>
-    <table>
-        <tr>
-            <td>1. 프로젝트 클론</td>
-            <td><code>git clone https://github.com/username/repo.git</code></td>
-        </tr>
-        <tr>
-            <td>2. 패키지 설치</td>
-            <td><code>npm install</code></td>
-        </tr>
-        <tr>
-            <td>3. 실행</td>
-            <td><code>npm start</code></td>
-        </tr>
-    </table>
+    <!-- 실행 방법 내용은 이미지로 대체 예정 -->
+    
     <br>
-
+    
     <!-- 동작 이미지 -->
     <h2>📸 동작 이미지</h2>
-    <table>
-        <tr>
-            <td><img src="image1.png" width="600"></td>
-        </tr>
-        <tr>
-            <td><img src="image2.png" width="600"></td>
-        </tr>
-    </table>
-</div>
+    <!-- 동작 이미지 내용은 이미지로 대체 예정 -->
 
 </div>
