@@ -1,21 +1,28 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>프로젝트 README</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<div align="center">
+    <h1>🛠 프로젝트 이름</h1>
+    <p>설명을 간단히 작성하세요.</p>
+    <br>
+    <!-- 기술 스택 -->
+    <h2>🚀 기술 스택</h2>
+    <table>
+        <tr>
+            <td align="center"><img src="tech1.png" width="50"><br>Tech 1</td>
+            <td align="center"><img src="tech2.png" width="50"><br>Tech 2</td>
+            <td align="center"><img src="tech3.png" width="50"><br>Tech 3</td>
+            <td align="center"><img src="tech4.png" width="50"><br>Tech 4</td>
+        </tr>
+    </table>
+    <br>
 
     <!-- 기능 요약 -->
     <h2>✨ 기능 요약</h2>
-    <ul>
+    <ul align="left">
         <li>✔️ 기능 1 설명</li>
         <li>✔️ 기능 2 설명</li>
         <li>✔️ 기능 3 설명</li>
         <li>✔️ 기능 4 설명</li>
     </ul>
+    <br>
 
     <!-- 프로젝트 구조 -->
     <h2>📁 프로젝트 구조</h2>
@@ -29,6 +36,7 @@
     ├── README.md
     └── package.json
     </pre>
+    <br>
 
     <!-- 실행 방법 -->
     <h2>⚡ 실행 방법</h2>
@@ -42,13 +50,11 @@
     # 실행
     npm start
     </pre>
+    <br>
 
     <!-- 동작 이미지 -->
     <h2>📸 동작 이미지</h2>
-    <div class="image-container">
-        <img src="image1.png" width="600">
-        <img src="image2.png" width="600">
-    </div>
-
-</body>
-</html>
+    <img src="image1.png" width="600">
+    <br>
+    <img src="image2.png" width="600">
+</div>
