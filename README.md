@@ -32,6 +32,24 @@
         </tr>
     </table>
     <br>
+<div align="center">
+    <!-- 기능 요약 -->
+    <h2>✨ 기능 요약</h2>
+    <table>
+        <tr>
+            <td>✔️ 기능 1 설명</td>
+        </tr>
+        <tr>
+            <td>✔️ 기능 2 설명</td>
+        </tr>
+        <tr>
+            <td>✔️ 기능 3 설명</td>
+        </tr>
+        <tr>
+            <td>✔️ 기능 4 설명</td>
+        </tr>
+    </table>
+    <br>
 
     <!-- 프로젝트 구조 -->
     <h2>📁 프로젝트 구조</h2>
@@ -99,5 +117,6 @@
             <td><img src="image2.png" width="600"></td>
         </tr>
     </table>
-    
+</div>
+
 </div>
