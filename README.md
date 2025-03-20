@@ -52,5 +52,62 @@
 
 <!-- 동작 이미지 -->
 <h2>📸 동작 이미지</h2>
-<!-- 동작 이미지 내용은 이미지로 대체 예정 -->
+
+<table>
+    <tr>
+        <td align="center"><img src="https://github.com/user-attachments/assets/296c3127-2581-4263-8074-b7178c52d385" width="300"></td>
+    </tr>
+    <tr>
+        <td align="center">설명 1: 여기에 첫 번째 이미지의 설명을 입력하세요.</td>
+    </tr>
+
+    <tr>
+        <td align="center"><img src="https://github.com/user-attachments/assets/11e3b917-b49d-433d-9abe-2f7ade6be3f0" width="300"></td>
+    </tr>
+    <tr>
+        <td align="center">설명 2: 여기에 두 번째 이미지의 설명을 입력하세요.</td>
+    </tr>
+
+    <tr>
+        <td align="center"><img src="https://github.com/user-attachments/assets/2e8217dc-09d2-43ab-b256-e8a3e7864890" width="300"></td>
+    </tr>
+    <tr>
+        <td align="center">설명 3: 여기에 세 번째 이미지의 설명을 입력하세요.</td>
+    </tr>
+
+    <tr>
+        <td align="center"><img src="https://github.com/user-attachments/assets/ab768e08-8e96-44d1-b02f-782bd4dc16e7" width="300"></td>
+    </tr>
+    <tr>
+        <td align="center">설명 4: 여기에 네 번째 이미지의 설명을 입력하세요.</td>
+    </tr>
+
+    <tr>
+        <td align="center"><img src="https://github.com/user-attachments/assets/84a5e7de-afb7-434a-96b1-790798e825f8" width="300"></td>
+    </tr>
+    <tr>
+        <td align="center">설명 5: 여기에 다섯 번째 이미지의 설명을 입력하세요.</td>
+    </tr>
+
+    <tr>
+        <td align="center"><img src="https://github.com/user-attachments/assets/00b36f43-25bf-41e2-bc06-46f5c8da1b62" width="300"></td>
+    </tr>
+    <tr>
+        <td align="center">설명 6: 여기에 여섯 번째 이미지의 설명을 입력하세요.</td>
+    </tr>
+
+    <tr>
+        <td align="center"><img src="https://github.com/user-attachments/assets/7de2152e-d942-4386-a8cb-2a133cbc751b" width="300"></td>
+    </tr>
+    <tr>
+        <td align="center">설명 7: 여기에 일곱 번째 이미지의 설명을 입력하세요.</td>
+    </tr>
+
+    <tr>
+        <td align="center"><img src="https://github.com/user-attachments/assets/c1f23f4c-beab-450f-9952-bdd4186c1e39" width="300"></td>
+    </tr>
+    <tr>
+        <td align="center">설명 8: 여기에 여덟 번째 이미지의 설명을 입력하세요.</td>
+    </tr>
+</table>
 
