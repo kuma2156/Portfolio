@@ -45,7 +45,14 @@
 
 <!-- 실행 방법 -->
 <h2>⚡ 실행 방법</h2>
-<!-- 실행 방법 내용은 이미지로 대체 예정 -->
+<table>
+    <tr>
+        <td align="center"><img src="https://github.com/user-attachments/assets/983a8d70-b55c-4af8-b504-7c3ab6473a83" width="50"></td>
+    </tr>
+</table>
+<p>1. 프로젝트 폴더를 다운로드하거나 클론합니다.</p>
+<p>2. <code>index.html</code> 파일을 더블 클릭하여 실행합니다.</p>
+<p>3. 웹 브라우저에서 자동으로 열립니다.</p>
 
 <br>
 
