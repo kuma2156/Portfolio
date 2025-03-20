@@ -1,6 +1,6 @@
 <div align="left">
     <h1>🛠 포트폴리오</h1>
-    <p>CSS, JS, HTML을 활용한 포트폴리오</p>
+    <p>![Image](https://github.com/user-attachments/assets/60939ddd-d521-43dd-a645-ab352e6de60e)</p>
     <br>
     <!-- 기술 스택 -->
     <h2>🚀 기술 스택</h2>
