@@ -26,30 +26,34 @@
 
     <!-- 프로젝트 구조 -->
     <h2>📁 프로젝트 구조</h2>
-    <pre>
-    ├── img/                # 이미지 파일
-    ├── src/                # 소스 코드
-    │   ├── components/     # 컴포넌트
-    │   ├── pages/          # 페이지
-    │   └── app.js          # 메인 앱 파일
-    ├── .gitignore
-    ├── README.md
-    └── package.json
-    </pre>
+    <ul>
+        <li>├── <strong>img/</strong>                # 이미지 파일</li>
+        <li>├── <strong>src/</strong>                # 소스 코드</li>
+        <ul>
+            <li>│   ├── <strong>components/</strong>     # 컴포넌트</li>
+            <li>│   ├── <strong>pages/</strong>          # 페이지</li>
+            <li>│   └── <strong>app.js</strong>          # 메인 앱 파일</li>
+        </ul>
+        <li>├── <strong>.gitignore</strong></li>
+        <li>├── <strong>README.md</strong></li>
+        <li>└── <strong>package.json</strong></li>
+    </ul>
     <br>
 
     <!-- 실행 방법 -->
     <h2>⚡ 실행 방법</h2>
-    <pre>
-    # 프로젝트 클론
-    git clone https://github.com/username/repo.git
-
-    # 패키지 설치
-    npm install
-
-    # 실행
-    npm start
-    </pre>
+    <p>
+        1. 프로젝트 클론<br>
+        <code>git clone https://github.com/username/repo.git</code>
+    </p>
+    <p>
+        2. 패키지 설치<br>
+        <code>npm install</code>
+    </p>
+    <p>
+        3. 실행<br>
+        <code>npm start</code>
+    </p>
     <br>
 
     <!-- 동작 이미지 -->
