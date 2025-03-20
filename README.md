@@ -1,6 +1,6 @@
 <div align="left">
     <h1>🛠 포트폴리오</h1>
-    <img src="https://github.com/user-attachments/assets/b6ae4188-8a4d-4572-868c-63af7a165176" alt="Portfolio Image">
+    <img src="https://github.com/user-attachments/assets/b6ae4188-8a4d-4572-868c-63af7a165176" alt="Portfolio Image" width="500">
     <br>
     <!-- 기술 스택 -->
     <h2>🚀 기술 스택</h2>
@@ -37,7 +37,7 @@
 <h2>📁 프로젝트 구조</h2>
 <table>
     <tr>
-        <td align="center"><img src="https://github.com/user-attachments/assets/983a8d70-b55c-4af8-b504-7c3ab6473a83" width="50"></td>
+        <td align="center"><img src="https://github.com/user-attachments/assets/983a8d70-b55c-4af8-b504-7c3ab6473a83" ></td>
     </tr>
 </table>
 
