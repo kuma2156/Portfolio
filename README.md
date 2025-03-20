@@ -7,8 +7,8 @@
     <table>
         <tr>
             <td align="center"><img src="https://github.com/user-attachments/assets/0d199af1-5d98-47e6-a9d8-e6376916354f" alt="Portfolio Image" width="50"></td>
-            <td align="center"><img src="https://github.com/user-attachments/assets/5364f0c9-a56e-4519-bfeb-0c7c2377ef2f" width="50"><br>Tech 2</td>
-            <td align="center"><img src="https://github.com/user-attachments/assets/4588e812-b1c1-4645-beb2-286aa57e3c41" width="50"><br>Tech 3</td>
+            <td align="center"><img src="https://github.com/user-attachments/assets/5364f0c9-a56e-4519-bfeb-0c7c2377ef2f" width="50"><br></td>
+            <td align="center"><img src="https://github.com/user-attachments/assets/4588e812-b1c1-4645-beb2-286aa57e3c41" width="50"><br></td>
         </tr>
     </table>
     <br>
