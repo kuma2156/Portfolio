@@ -23,42 +23,39 @@
         <li>✔️ 기능 4 설명</li>
     </ul>
     <br>
-
+    
     <!-- 프로젝트 구조 -->
     <h2>📁 프로젝트 구조</h2>
-    <ul>
-        <li>├── <strong>img/</strong>                # 이미지 파일</li>
-        <li>├── <strong>src/</strong>                # 소스 코드</li>
-        <ul>
-            <li>│   ├── <strong>components/</strong>     # 컴포넌트</li>
-            <li>│   ├── <strong>pages/</strong>          # 페이지</li>
-            <li>│   └── <strong>app.js</strong>          # 메인 앱 파일</li>
-        </ul>
-        <li>├── <strong>.gitignore</strong></li>
-        <li>├── <strong>README.md</strong></li>
-        <li>└── <strong>package.json</strong></li>
-    </ul>
+    <pre>
+    ├── <strong>img/</strong>                # 이미지 파일
+    ├── <strong>src/</strong>                # 소스 코드
+    │   ├── <strong>components/</strong>     # 컴포넌트
+    │   ├── <strong>pages/</strong>          # 페이지
+    │   └── <strong>app.js</strong>          # 메인 앱 파일
+    ├── <strong>.gitignore</strong>
+    ├── <strong>README.md</strong>
+    └── <strong>package.json</strong>
+    </pre>
     <br>
-
+    
     <!-- 실행 방법 -->
     <h2>⚡ 실행 방법</h2>
-    <p>
-        1. 프로젝트 클론<br>
-        <code>git clone https://github.com/username/repo.git</code>
-    </p>
-    <p>
-        2. 패키지 설치<br>
-        <code>npm install</code>
-    </p>
-    <p>
-        3. 실행<br>
-        <code>npm start</code>
-    </p>
+    <pre>
+    1. 프로젝트 클론
+    <code>git clone https://github.com/username/repo.git</code>
+    
+    2. 패키지 설치
+    <code>npm install</code>
+    
+    3. 실행
+    <code>npm start</code>
+    </pre>
     <br>
-
+    
     <!-- 동작 이미지 -->
     <h2>📸 동작 이미지</h2>
     <img src="image1.png" width="600">
     <br>
     <img src="image2.png" width="600">
+
 </div>
