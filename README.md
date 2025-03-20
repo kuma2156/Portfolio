@@ -59,7 +59,7 @@
         <td align="center"><img src="https://github.com/user-attachments/assets/296c3127-2581-4263-8074-b7178c52d385" width="750"></td>
     </tr>
     <tr>
-        <td align="center">프로필 페이지 개인정보</td>
+        <td align="center">[프로필 페이지] 개인정보</td>
     </tr>
 </table>
 
@@ -69,7 +69,7 @@
         <td align="center"><img src="https://github.com/user-attachments/assets/11e3b917-b49d-433d-9abe-2f7ade6be3f0" width="750"></td>
     </tr>
     <tr>
-        <td align="center">프로필 페이지 학력사항</td>
+        <td align="center">[프로필 페이지] 학력사항</td>
     </tr>
 </table>
 
@@ -79,7 +79,7 @@
         <td align="center"><img src="https://github.com/user-attachments/assets/2e8217dc-09d2-43ab-b256-e8a3e7864890" width="750"></td>
     </tr>
     <tr>
-        <td align="center">프로필 페이지 인적사항</td>
+        <td align="center">[프로필 페이지] 인적사항</td>
     </tr>
 </table>
 
@@ -89,7 +89,7 @@
         <td align="center"><img src="https://github.com/user-attachments/assets/ab768e08-8e96-44d1-b02f-782bd4dc16e7" width="750"></td>
     </tr>
     <tr>
-        <td align="center">사용한 언어를 그래프로 표현</td>
+        <td align="center">[언어 페이지] 사용한 언어를 그래프로 표현</td>
     </tr>
 </table>
 
@@ -99,7 +99,7 @@
         <td align="center"><img src="https://github.com/user-attachments/assets/84a5e7de-afb7-434a-96b1-790798e825f8" width="750"></td>
     </tr>
     <tr>
-        <td align="center">진행한 프로젝트들 </td>
+        <td align="center">[언어 페이지] 진행한 프로젝트들 </td>
     </tr>
 </table>
 
@@ -109,7 +109,7 @@
         <td align="center"><img src="https://github.com/user-attachments/assets/00b36f43-25bf-41e2-bc06-46f5c8da1b62" width="750"></td>
     </tr>
     <tr>
-        <td align="center">마우스 인접시</td>
+        <td align="center">[언어 페이지] 마우스 클릭시</td>
     </tr>
 </table>
 
@@ -119,7 +119,7 @@
         <td align="center"><img src="https://github.com/user-attachments/assets/7de2152e-d942-4386-a8cb-2a133cbc751b" width="750"></td>
     </tr>
     <tr>
-        <td align="center">진행한 프로젝트 설명</td>
+        <td align="center">[언어 페이지] 진행한 프로젝트 설명</td>
     </tr>
 </table>
 
@@ -129,7 +129,7 @@
         <td align="center"><img src="https://github.com/user-attachments/assets/c1f23f4c-beab-450f-9952-bdd4186c1e39" width="750"></td>
     </tr>
     <tr>
-        <td align="center">스펙 및 경험</td>
+        <td align="center">[스펙 및 경험 페이지]</td>
     </tr>
 </table>
 
