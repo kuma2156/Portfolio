@@ -6,7 +6,7 @@
     <h2>🚀 기술 스택</h2>
     <table>
         <tr>
-            <td align="center"><img src="https://github.com/user-attachments/assets/0d199af1-5d98-47e6-a9d8-e6376916354f" alt="Portfolio Image" width="50"></td>
+            <td align="center"><img src="https://github.com/user-attachments/assets/0d199af1-5d98-47e6-a9d8-e6376916354f" width="50"></td>
             <td align="center"><img src="https://github.com/user-attachments/assets/5364f0c9-a56e-4519-bfeb-0c7c2377ef2f" width="50"><br></td>
             <td align="center"><img src="https://github.com/user-attachments/assets/4588e812-b1c1-4645-beb2-286aa57e3c41" width="50"><br></td>
         </tr>
@@ -35,25 +35,11 @@
 </div>
 
 <h2>📁 프로젝트 구조</h2>
-📁 Project Structure
-├── index.html
-├── bash.exe.stackdump
-├── mintty.exe.stackdump
-├── portpolio/
-│
-├── .vscode/
-│   └── settings.json
-│
-├── css/
-│   └── style.css
-│
-├── images/
-│   ├── ai.png
-│   ├── ...
-│   └── ...
-└── js/
-    └── script.js
-
+<table>
+    <tr>
+        <td align="center"><img src="https://github.com/user-attachments/assets/983a8d70-b55c-4af8-b504-7c3ab6473a83" width="50"></td>
+    </tr>
+</table>
 
 <br>
 
