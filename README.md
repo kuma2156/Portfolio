@@ -1,6 +1,6 @@
 <div align="left">
     <h1>🛠 포트폴리오</h1>
-    ![Image](https://github.com/user-attachments/assets/b6ae4188-8a4d-4572-868c-63af7a165176)
+    <img src="https://github.com/user-attachments/assets/b6ae4188-8a4d-4572-868c-63af7a165176" alt="Portfolio Image">
     <br>
     <!-- 기술 스택 -->
     <h2>🚀 기술 스택</h2>
