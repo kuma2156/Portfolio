@@ -4,9 +4,9 @@
     <br>
     <!-- 기술 스택 -->
     <h2>🚀 기술 스택</h2>
-    <table>
+   <table>
         <tr>
-            <td align="center">img src="https://github.com/user-attachments/assets/0d199af1-5d98-47e6-a9d8-e6376916354f" alt="Portfolio Image" width="50"><br></td>
+            <td align="center"><img src="https://github.com/user-attachments/assets/0d199af1-5d98-47e6-a9d8-e6376916354f" alt="Portfolio Image" width="50"></td>
             <td align="center"><img src="tech2.png" width="50"><br>Tech 2</td>
             <td align="center"><img src="tech3.png" width="50"><br>Tech 3</td>
             <td align="center"><img src="tech4.png" width="50"><br>Tech 4</td>
