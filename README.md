@@ -14,48 +14,90 @@
     </table>
     <br>
 
+<div align="center">
     <!-- 기능 요약 -->
     <h2>✨ 기능 요약</h2>
-    <ul align="left">
-        <li>✔️ 기능 1 설명</li>
-        <li>✔️ 기능 2 설명</li>
-        <li>✔️ 기능 3 설명</li>
-        <li>✔️ 기능 4 설명</li>
-    </ul>
+    <table>
+        <tr>
+            <td>✔️ 기능 1 설명</td>
+        </tr>
+        <tr>
+            <td>✔️ 기능 2 설명</td>
+        </tr>
+        <tr>
+            <td>✔️ 기능 3 설명</td>
+        </tr>
+        <tr>
+            <td>✔️ 기능 4 설명</td>
+        </tr>
+    </table>
     <br>
-    
+
     <!-- 프로젝트 구조 -->
     <h2>📁 프로젝트 구조</h2>
-    <pre>
-    ├── <strong>img/</strong>                # 이미지 파일
-    ├── <strong>src/</strong>                # 소스 코드
-    │   ├── <strong>components/</strong>     # 컴포넌트
-    │   ├── <strong>pages/</strong>          # 페이지
-    │   └── <strong>app.js</strong>          # 메인 앱 파일
-    ├── <strong>.gitignore</strong>
-    ├── <strong>README.md</strong>
-    └── <strong>package.json</strong>
-    </pre>
+    <table>
+        <tr>
+            <td>├── <strong>img/</strong></td>
+            <td># 이미지 파일</td>
+        </tr>
+        <tr>
+            <td>├── <strong>src/</strong></td>
+            <td># 소스 코드</td>
+        </tr>
+        <tr>
+            <td>│   ├── <strong>components/</strong></td>
+            <td># 컴포넌트</td>
+        </tr>
+        <tr>
+            <td>│   ├── <strong>pages/</strong></td>
+            <td># 페이지</td>
+        </tr>
+        <tr>
+            <td>│   └── <strong>app.js</strong></td>
+            <td># 메인 앱 파일</td>
+        </tr>
+        <tr>
+            <td>├── <strong>.gitignore</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>├── <strong>README.md</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>└── <strong>package.json</strong></td>
+            <td></td>
+        </tr>
+    </table>
     <br>
-    
+
     <!-- 실행 방법 -->
     <h2>⚡ 실행 방법</h2>
-    <pre>
-    1. 프로젝트 클론
-    <code>git clone https://github.com/username/repo.git</code>
-    
-    2. 패키지 설치
-    <code>npm install</code>
-    
-    3. 실행
-    <code>npm start</code>
-    </pre>
+    <table>
+        <tr>
+            <td>1. 프로젝트 클론</td>
+            <td><code>git clone https://github.com/username/repo.git</code></td>
+        </tr>
+        <tr>
+            <td>2. 패키지 설치</td>
+            <td><code>npm install</code></td>
+        </tr>
+        <tr>
+            <td>3. 실행</td>
+            <td><code>npm start</code></td>
+        </tr>
+    </table>
     <br>
-    
+
     <!-- 동작 이미지 -->
     <h2>📸 동작 이미지</h2>
-    <img src="image1.png" width="600">
-    <br>
-    <img src="image2.png" width="600">
-
+    <table>
+        <tr>
+            <td><img src="image1.png" width="600"></td>
+        </tr>
+        <tr>
+            <td><img src="image2.png" width="600"></td>
+        </tr>
+    </table>
+    
 </div>
