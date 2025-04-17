@@ -6,6 +6,23 @@
         </tr>
     </table>
 </div>
+
+<div align="left">
+    <h1>💻 만든이</h1>
+    <table>
+        <tr>
+            <td align="center"><img src="https://github.com/user-attachments/assets/61049fd5-5e06-4b17-bb51-d925ea3e68dc" width="250"></td>
+        </tr>
+        <tr>
+            <td align="center"><b>김명규</b></td>
+        </tr>
+        <tr>
+            <td align="center"><b>https://github.com/kuma2156</b></td>
+        </tr>
+    </table>
+</div>
+
+
 <div align="left">
     <br>
     <!-- 기술 스택 -->
